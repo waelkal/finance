@@ -22,7 +22,10 @@ class _SplashscreenState extends State<Splashscreen> {
             ),
             Text(
               "Finance",
-              style: TextStyle(fontSize: 30, color: Colors.green),
+              style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.green,
+                  fontWeight: FontWeight.bold),
             )
           ],
         ),
